@@ -1,0 +1,59 @@
+Manufacturer: Keo
+Model: K900
+Protocol: NEC
+Number of bits: 32
+
+On Button:						0xFB009A65
+
++Volume/Left Arrow:				0xFB00D827
+-Volume/Right Arrow:			0xFB005AA5
+
+Mute Button:					0xFB009867
+
++Channel/Up Arrow:				0xFB00609F
+-Channel/Down Arrow:			0xFB006897
+
+
+Channel 1:						0xFB004AB5
+Channel 2:						0xFB000AF5
+Channel 3:						0xFB0008F7
+Channel 4:						0xFB006A95
+Channel 5:						0xFB002AD5
+Channel 6:						0xFB0028D7
+Channel 7:						0xFB00728D
+Channel 8:						0xFB0032CD
+Channel 9:						0xFB0030CF
+Channel 0:						0xFB00F00F
+
+Return/Back:					0xFB00C837
+
+Exit:							0xFB00A05F
+
+Enter Button					0xFB0058A7
+
+
+Media Button:					0xFB0052AD
+USB Button:						0xFB0012ED
+Audio Button:					0xFB00D02F
+		
+Menu Button:					0xFB00A25D
+
+Audio Button:
+
+	Decoded NEC(1): Value:FB00D02F Adrs:0 (32 bits) 
+	Raw samples(68): Gap:38638
+	  Head: m9058  s4578
+	0:m534 s1714	1:m530 s1718		 2:m526 s1718	3:m538 s1710		 
+	4:m538 s1710	5:m534 s606		 6:m526 s1718	7:m534 s1714		 
+	8:m538 s598	9:m530 s606		 10:m538 s602	11:m530 s606		 
+	12:m534 s602	13:m534 s602		 14:m534 s602	15:m534 s602		 
+
+	16:m542 s1706	17:m542 s1706		 18:m538 s598	19:m538 s1710		 
+	20:m538 s598	21:m538 s598		 22:m542 s598	23:m534 s602		 
+	24:m538 s598	25:m534 s602		 26:m538 s1714	27:m534 s598		 
+	28:m538 s1710	29:m538 s1710		 30:m534 s1714	31:m534 s1714		 
+
+	32:m534
+	Extent=67206
+	Mark  min:526	 max:542
+	Space min:598	 max:1718

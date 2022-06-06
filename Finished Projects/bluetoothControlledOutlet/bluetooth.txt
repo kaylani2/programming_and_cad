@@ -1,0 +1,89 @@
+Parts:
+
+- Arduino Uno/Nano (the code presented here can be used with any either board)
+- HC-05 Bluetooth Module (HC-06 would work also, probably with small changes to the wiring)
+- Some resistors (the values will be written on the next steps)
+- NPN transistor (pretty much any transistor will work, I've used the BC637)
+- RGB led (common cathode in my case)
+- 5V relay
+- 5V power supply (I've used an old charger, you could get the board from inside the charger and put inside the project box, I was too lazy to do it)
+- Circuit board
+- Some wires
+- Female headers
+- KRE connectors
+- Lever connectors
+- Project box (any box will do. Again, I've used a crappy light box that I had, it's going to be hidden anyway)
+
+Tools:
+
+- Soldering Iron
+- Rotary tool (not strictly necessary. I've used one to work on the box, but you can do this with any other tools)
+
+Step 1:
+
+The overall idea of the project is to be able to control an outlet, turning it on and off, using just a smartphone.
+The way I've chosen was to use an Arduino controlled by bluetooth, because it's very simple to use and reliable enough for this application.
+
+The Arduino will just be waiting for an input from the HC-05 module. I've written the code to be password protected and to talk back to the user trough the Android app.
+
+
+Step 2:
+
+The HC-05 Bluetooth Module
+
+The HC-05 is really easy to use.
+It has six pins:
+	- Vcc -> This pin should be connected to 5V or 3.3V, deppending on the model. The one I have came with a breakout board and a regulator, so I can plug directly into 5V.
+	- GND -> Connects to the ground of the Arduino
+	- TX/TXD -> This is the transmitter pin. It works with a 3.3V as a high logic level, good enough for the Arduino to read. So just connect this pin to the RX pin of the Arduino (not when uploading the code, I'll explain why later)
+	- RX/RXD -> This is the receiver pin. It also works with 3.3V. Since the Arduino uses 5V logic levels, you will need to use a simple voltage divider before connecting this pin the TX pin of the Arduino (the values of the resistors are on the next step)
+	- State and En -> We will not use this pins for now, since they are use to make some changes to the HC-05 (password, name and other stuff, there are a lot of good tutorials about this on the web)
+
+
+Step 3:
+
+The circuit:
+
+	The output of the Arduino is not enough to control the relay directly, so we'll use the following simple circuit to control the relay.
+
+	
+
+	The drawn circuit is based on a Arduino Nano, if you're using the Arduino Uno just change the connections to the pins used in the code.
+	I will the using the logical numbers of the Arduino Pins, not the number of their physical locations. E.g., the Arduino Nano Digital Pin 03 is the sixth pin counting from TX, and I will call it Pin 3.
+
+	HC-05 TX connects to Arduino RX
+	HC-05 RX connects to the 1K and the 2K (two 1K resistors) resistors
+	1K resistor connects to Arduino TX
+	2K resistor connects to Ground
+	Arduino Digital Pin 3 connects to the 220 resistor and then to the red anode of the led, the led connects to grond.
+	Arduino Digital Pin 5 connects in the same way, but on the green anode.
+	Arduino Digital Pin 6 connects in the same way, but on the blue anode.
+	Arduino Digital Pin 9 connects to the input of the little relay circuit.
+	Arduino Digital Pin 10 connects to an 220 resistor and then to an led, this was used just to test the connection between the bluetooth module and the Arduino.
+
+	Just follow the pictures to connect the relay and the outlets.	
+	
+
+
+Step 4:
+
+The code:
+	
+	Just copy and paste the code on the Arduino IDE, select your board and disconnect the RX and TX pins of the HC-05 from the Arduino before uploading. The Arduino uses serial transmission to upload the code, so these pins are occupied during the upload.
+	
+
+INSERT FUCKING CODE HERE
+	
+
+Step 5:
+	The app:
+
+	I'm using the Bluetooth Terminal HC-05 app for Android.
+	Just connect to the HC-05 (the password should be 1234 or 0000) and use the terminal.
+	You can also configure 5 buttons so you don't have to keep typing to toggle the outlet. Just make sure you send a carriage return and no new line feed with the input, if you do, you'll have to change the code a bit.
+	
+Step 6: 
+
+Use it:
+
+Just plug in anything you want to the outlet and control it with your phone. 

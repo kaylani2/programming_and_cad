@@ -1,0 +1,44 @@
+Manufacturer: ???????
+Model: ??????????????
+Protocol: NEC (1)
+Number of bits: 32
+
+On Button:				0xFD00FF
+
+Max Brightness:			0xFD40BF
+
+Flash Button:			0xFD08F7
+
++Speed:					0xFD8877
+-Speed:					0xFD48B7
+
+10%:					0xFD20DF
+20%:					0xFDA05F
+30%:					0xFD609F
+40%:					0xFD10EF
+50%:					0xFD906F
+60%:					0xFD50AF
+70%:					0xFD30CF
+80%:					0xFDB04F
+90%:					0xFD708F
+
+
+Max Brightness:
+
+	Decoded NEC(1): Value:FD40BF Adrs:0 (32 bits) 
+	Raw samples(68): Gap:8946
+	  Head: m9530  s4594
+	0:m566 s606	1:m562 s610		 2:m558 s614	3:m566 s606		 
+	4:m550 s622	5:m554 s618		 6:m550 s622	7:m558 s614		 
+	8:m550 s1742	9:m558 s1734		 10:m554 s1742	11:m558 s1734		 
+	12:m562 s1734	13:m558 s1734		 14:m562 s610	15:m562 s1730		 
+
+	16:m566 s606	17:m554 s1738		 18:m574 s598	19:m562 s610		 
+	20:m558 s610	21:m562 s610		 22:m558 s610	23:m562 s610		 
+	24:m550 s1742	25:m558 s614		 26:m554 s1738	27:m558 s1734		 
+	28:m570 s1726	29:m554 s1738		 30:m566 s1730	31:m562 s1730		 
+
+	32:m562
+	Extent=68998
+	Mark  min:550	 max:574
+	Space min:598	 max:1742

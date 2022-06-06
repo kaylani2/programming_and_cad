@@ -1,0 +1,11 @@
+00000 -> "Hello, World" for Windows 7/8/10
+
+00001 -> "Lorem ipsum and characters benchmark" for Windows/Linux/Mac/BSD
+
+00010 -> "SMTP email sender tester with powershell" for Windows 10 
+
+00011 -> "Wifi password grabber with powershell" for Windows 10
+
+00100 -> "Batch file creator tester" for Windows 7/10
+
+00101 -> "Start up mandatory 'Dull Boy' message" for Windows 7/10

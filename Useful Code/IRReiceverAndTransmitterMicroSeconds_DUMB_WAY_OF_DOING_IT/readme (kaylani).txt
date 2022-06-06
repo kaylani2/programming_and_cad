@@ -1,0 +1,1 @@
+this code should work with any protocol because it doesn't rely on any libraries and uses the timing of the IR pulses

@@ -1,0 +1,44 @@
+Manufacturer: Cineral
+Model: DVDK-1240
+Protocol: NEC
+Number of bits: 32
+
+/*
+	Really old DVD player, so I won't bother with all the keys
+*/
+
+
+
+On Button:						0x8B7F807
+
++Volume/Left Arrow:				0x8B7D02F
+-Volume/Right Arrow:			0x8B710EF
+
+
++Channel/Up Arrow:				0x8B752AD
+-Channel/Down Arrow:			0x8B7D22D
+
+
+Enter Button:					0x8B7926D
+
+
+	
+Enter Button:
+
+	Decoded NEC(1): Value:8B7926D Adrs:0 (32 bits) 
+	Raw samples(68): Gap:16462
+	  Head: m9038  s4538
+	0:m542 s594	1:m522 s614		 2:m506 s606	3:m534 s598		 
+	4:m530 s1718	5:m534 s598		 6:m526 s614	7:m502 s606		 
+	8:m534 s1738	9:m506 s606		 10:m538 s1730	11:m510 s1734		 
+	12:m530 s606	13:m514 s1730		 14:m530 s1718	15:m538 s1734		 
+
+	16:m514 s1730	17:m526 s610		 18:m514 s598	19:m534 s1734		 
+	20:m506 s606	21:m534 s602		 22:m522 s1722	23:m542 s594		 
+	24:m526 s610	25:m514 s1730		 26:m522 s1726	27:m534 s598		 
+	28:m522 s1726	29:m534 s1734		 30:m514 s598	31:m534 s1734		 
+
+	32:m514
+	Extent=67074
+	Mark  min:502	 max:542
+	Space min:594	 max:1738

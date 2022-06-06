@@ -1,0 +1,167 @@
+DELAY 3000
+
+
+STRING Starting Benchmark
+ENTER
+ENTER
+
+STRING "303 BYTES:"
+ENTER
+ENTER
+STRING Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at ligula et lectus luctus pulvinar. Nulla facilisi. Phasellus vitae libero elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis eu lectus elementum, euismod justo nec, sagittis massa. Vestibulum
+ENTER
+ENTER
+
+STRING "304 BYTES:"
+ENTER
+ENTER
+STRING Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at ligula et lectus luctus pulvinar. Nulla facilisi. Phasellus vitae libero elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis eu lectus elementum, euismod justo nec, sagittis massa. Vestibulum 
+ENTER
+ENTER
+
+STRING "305 BYTES:"
+ENTER
+ENTER
+STRING Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at ligula et lectus luctus pulvinar. Nulla facilisi. Phasellus vitae libero elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis eu lectus elementum, euismod justo nec, sagittis massa. Vestibulum a
+ENTER
+ENTER
+
+STRING Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ligula augue, cursus id sagittis eu, interdum sit amet eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut mi id sapien ultricies consectetur. Etiam sit amet magna vitae felis rhoncus vestibulum eu eu tellus. 
+STRING In blandit libero vitae pellentesque dignissim. Nunc semper sem feugiat tortor lacinia consequat. Integer quis aliquam lectus. Duis eget turpis vel libero mattis consequat vel eu ligula. Phasellus tempus tristique placerat. Etiam porttitor nec orci at aliquam. 
+STRING Praesent tincidunt dolor dui, eu aliquam lorem faucibus ac. Maecenas urna nulla, tincidunt non gravida eu, consectetur sed risus. Maecenas vel neque lacinia, imperdiet quam ac, fringilla massa. Sed posuere mi lectus, sit amet consectetur metus aliquet id. In mattis nisl id ligula malesuada, 
+STRING et mattis diam suscipit. Curabitur laoreet nunc ut elit accumsan congue.
+ENTER
+ENTER
+
+STRING Aliquam erat volutpat. Donec et tincidunt quam, ut varius est. Duis aliquet aliquam pulvinar. Mauris sed consectetur lectus. Sed dapibus dignissim diam sed sollicitudin. In efficitur tortor ex, in facilisis arcu maximus non. Integer vestibulum gravida condimentum. Interdum et malesuada 
+STRING fames ac ante ipsum primis in faucibus.
+ENTER
+ENTER
+
+STRING Donec laoreet dolor a interdum varius. Nullam scelerisque diam at nibh hendrerit posuere. Praesent ut efficitur quam. Quisque aliquam erat vel diam euismod bibendum. Morbi non quam a sapien aliquam tincidunt. Pellentesque pharetra, mauris sit amet tincidunt efficitur, est nibh maximus purus, 
+STRING efficitur blandit massa erat eu libero. Maecenas rutrum ligula id dolor ultricies, nec condimentum lacus bibendum. Maecenas elementum nisi ac erat pharetra, nec finibus magna viverra. Phasellus volutpat, mauris in pellentesque auctor, purus diam efficitur eros, sit amet porta quam arcu ut massa. 
+STRING Nullam lacinia orci turpis, sed tincidunt elit rhoncus vitae. Morbi non bibendum magna. Curabitur id nisi ac nulla pellentesque tristique et fringilla ante. Proin mattis ex lacus, eget aliquam mauris aliquam ac. Pellentesque aliquet, libero id varius ultrices, ipsum augue pulvinar arcu, 
+STRING et porta erat urna id arcu. Phasellus ac blandit neque.
+ENTER
+ENTER
+
+STRING Phasellus a ex ut dui posuere ullamcorper vitae at nibh. Etiam venenatis varius placerat. Nulla iaculis lectus id ornare fermentum. Aenean pharetra sapien nec viverra lacinia. Nullam ac mauris in metus euismod posuere. Nullam et erat id quam euismod consequat id non lacus. Donec ornare nulla 
+STRING eget arcu tincidunt pulvinar. Donec egestas justo interdum tempor aliquet. Fusce quis lobortis magna. Suspendisse sit amet turpis risus. In hendrerit egestas libero eu molestie. Praesent non justo ultrices, ultrices felis pharetra, ultricies nulla.
+ENTER
+ENTER
+
+
+STRING Suspendisse convallis, sem in hendrerit finibus, eros massa accumsan magna, id commodo felis purus ut magna. Cras scelerisque vel orci eget pulvinar. Etiam sit amet ante vestibulum, tincidunt nibh sed, rhoncus augue. Quisque rutrum arcu vel condimentum congue. Cras ut magna luctus, 
+STRING pretium erat sit amet, porta sem. Pellentesque in dui augue. Donec lectus eros, congue vitae consectetur eu, laoreet id dolor. Nunc rhoncus ante in sem porta porttitor. Quisque condimentum ultrices iaculis. Nulla facilisi. Orci varius natoque penatibus et magnis dis parturient montes, 
+STRING nascetur ridiculus mus. Donec ut metus bibendum, suscipit lectus scelerisque, finibus nisl. Proin placerat eu nisl dignissim bibendum. Vivamus id viverra lorem. Nullam sit amet posuere dui. Sed tellus lorem, cursus ac orci nec, fermentum malesuada ipsum.
+ENTER
+ENTER
+
+
+STRING Foram digitados 5 paragrafos, 522 palavras e 3541 bytes de Lorem Ipsum
+ENTER
+ENTER
+
+
+ENTER
+ENTER
+
+STRING two tabs               			
+ENTER
+
+STRING exclamation mark       !
+ENTER
+
+STRING at                     @
+ENTER
+
+STRING hashtag                #
+ENTER
+
+STRING dollar sign            $
+ENTER
+
+STRING percent sign           %
+ENTER
+
+STRING circunflex             ^
+ENTER
+
+STRING ampersand              &
+ENTER
+
+STRING asterisk               *
+ENTER
+
+STRING parentheses            ()
+ENTER
+
+STRING dash                   -
+ENTER
+
+STRING underscore             _
+ENTER
+
+STRING plus sign              +
+ENTER
+
+STRING equal sign             =
+ENTER
+
+STRING brackets               []
+ENTER
+
+STRING acute                  ´
+ENTER
+
+STRING grave                  `
+ENTER
+
+STRING vertical bar           |
+ENTER
+
+STRING slash                  /
+ENTER
+
+STRING backslash              \
+ENTER
+
+STRING curly brackets         {}
+ENTER
+
+STRING colon                  :
+ENTER
+
+STRING semicolon              ;
+ENTER
+
+STRING c cedil                ç
+ENTER
+
+STRING tilde                  ~
+ENTER
+
+STRING question mark          ?
+ENTER
+
+STRING period                 .
+ENTER
+
+STRING comma                  ,
+ENTER
+
+STRING quotes                 ""
+ENTER
+
+STRING single quotes          ''
+ENTER
+
+STRING greater smaller than   <> 
+ENTER
+
+STRING a acute                á
+ENTER
+
+ENTER
+STRING FINISHED BENCHMARK
+ENTER
